@@ -158,8 +158,8 @@ function App() {
   return (
     <div className="min-h-screen py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
+        <h1 className="text-4xl font-bold text-center mb-8 text-gray-900">FactFetch</h1>
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-dark-text">Historical Moments</h1>
           <button
             onClick={toggleDarkMode}
             className="p-2 rounded-full bg-gray-200 dark:bg-dark-card text-gray-800 dark:text-dark-text hover:bg-gray-300 dark:hover:bg-gray-800 transition-colors"
