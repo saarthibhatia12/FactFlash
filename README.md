@@ -21,8 +21,7 @@ A modern, Instagram Reel-style web application for browsing important historical
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/histy.git
-cd histy
+git clone https://github.com/saarthibhatia12/FactFlash.git
 ```
 
 2. Install dependencies:
