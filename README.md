@@ -1,4 +1,4 @@
-# Histy - Historical Events Timeline
+# FactFlash - Historical Events Timeline
 
 A modern, Instagram Reel-style web application for browsing important historical events. Built with React, TypeScript, and Tailwind CSS.
 
