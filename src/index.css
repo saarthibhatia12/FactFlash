@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased text-gray-900 dark:text-dark-text bg-primary-light dark:bg-dark-bg transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .event-card {
+    @apply bg-white dark:bg-dark-card rounded-xl shadow-lg p-6 transition-all duration-300 hover:shadow-xl dark:shadow-gray-900/30;
+  }
+  
+  .event-date {
+    @apply text-sm font-medium text-accent-dark dark:text-accent-light;
+  }
+  
+  .event-title {
+    @apply text-xl font-bold mt-2 mb-3 text-gray-900 dark:text-dark-text;
+  }
+  
+  .event-description {
+    @apply text-gray-600 dark:text-dark-muted leading-relaxed;
+  }
+} 
